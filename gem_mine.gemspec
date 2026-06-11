@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.name = "gem_mine"
   spec.version = Module.new.tap { |mod| Kernel.load("#{__dir__}/lib/gem_mine/version.rb", mod) }::GemMine::Version::VERSION
   spec.authors = ["Peter H. Boling"]
-  spec.email = ["peter.boling@gmail.com"]
+  spec.email = ["floss@galtzo.com"]
 
   spec.summary = "⛏️ Tools for creating and cleaning up scaffolded Ruby gem workspaces."
   spec.description = "⛏️ Provides helpers for setting up temporary scaffolded gem projects and reliably tearing them down after tests."

@@ -38,6 +38,7 @@ Please file a bug if you notice a violation of semantic versioning.
   `appraisal-rb/gem_mine` repository owner.
 - Corrected generated fixture gem defaults to avoid Thoughtbot repository and
   git author metadata.
+- Corrected the gemspec public author email to use `floss@galtzo.com`.
 
 ### Security
 
