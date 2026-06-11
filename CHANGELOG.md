@@ -20,6 +20,26 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Added
 
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [0.1.0] - 2026-06-11
+
+- TAG: [v0.1.0][0.1.0t]
+- COVERAGE: 100.00% -- 107/107 lines in 2 files
+- BRANCH COVERAGE: 100.00% -- 18/18 branches in 2 files
+- 37.21% documented
+- Initial release
+
+### Added
+
 - Added a `GemMine::Scaffold` API and `GemMine.scaffold` helper for creating,
   building, installing, git-initializing, and cleaning up minimal fixture gems.
 
@@ -27,10 +47,6 @@ Please file a bug if you notice a violation of semantic versioning.
 
 - Retemplated with the current kettle-jem template set, adding modern project
   automation, metadata, CI, modular Gemfiles, and template configuration.
-
-### Deprecated
-
-### Removed
 
 ### Fixed
 
@@ -40,8 +56,6 @@ Please file a bug if you notice a violation of semantic versioning.
   git author metadata.
 - Corrected the gemspec public author email to use `floss@galtzo.com`.
 
-### Security
-
-## [0.1.0] - 2025-08-30
-
-- Initial release
+[Unreleased]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/appraisal-rb/gem_mine/compare/ee8f9f471c0f1aa5bdb950b17de9f07cdcd25402...v0.1.0
+[0.1.0t]: https://github.com/appraisal-rb/gem_mine/releases/tag/v0.1.0
