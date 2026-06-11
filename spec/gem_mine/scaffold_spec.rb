@@ -117,6 +117,16 @@ RSpec.describe GemMine::Scaffold do
     end
   end
 
+  it "isolates gem installs to the caller-controlled gem home" do
+    inside_tmp do |dir|
+      gem_home = dir.join("gems")
+      scaffold = described_class.new("isolated_dummy", root: dir.join("isolated_dummy"), gem_home: gem_home).create
+
+      expect(scaffold.__send__(:gem_home_env)).to eq("GEM_HOME" => gem_home.to_s, "GEM_PATH" => gem_home.to_s)
+      expect(scaffold.__send__(:install_command)).to include("--install-dir", gem_home.to_s, "--bindir", gem_home.join("bin").to_s)
+    end
+  end
+
   it "logs commands in verbose mode" do
     inside_tmp do |dir|
       scaffold = described_class.new("verbose_dummy", root: dir.join("verbose_dummy"), verbose: true).create

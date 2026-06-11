@@ -82,7 +82,7 @@ module GemMine
 
     def install
       build unless File.file?(built_gem_path)
-      run("gem", "install", "-lN", built_gem_file, "-v", version, chdir: root, env: gem_home_env)
+      run(*install_command, chdir: root, env: gem_home_env)
       self
     end
 
@@ -130,7 +130,14 @@ module GemMine
     def gem_home_env
       return {} unless gem_home
 
-      {"GEM_HOME" => gem_home}
+      {"GEM_HOME" => gem_home, "GEM_PATH" => gem_home}
+    end
+
+    def install_command
+      command = ["gem", "install", "-lN", built_gem_file, "-v", version]
+      return command unless gem_home
+
+      command + ["--install-dir", gem_home, "--bindir", File.join(gem_home, "bin")]
     end
 
     def lib_dir
@@ -158,10 +165,16 @@ module GemMine
 
     def run(*command, chdir:, env: {})
       warn_command(command, chdir)
-      stdout, stderr, status = Open3.capture3(env, *command, chdir: chdir)
+      stdout, stderr, status = capture3(env, *command, chdir: chdir)
       return stdout if status.success?
 
       raise CommandError.new(command, status, stdout, stderr)
+    end
+
+    def capture3(env, *command, chdir:)
+      return Bundler.with_unbundled_env { Open3.capture3(env, *command, chdir: chdir) } if defined?(Bundler)
+
+      Open3.capture3(env, *command, chdir: chdir)
     end
 
     def warn_command(command, chdir)

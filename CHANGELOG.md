@@ -28,6 +28,10 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Fixed
 
+- Isolated scaffold gem installs with explicit `GEM_HOME`, `GEM_PATH`,
+  `--install-dir`, and `--bindir` settings so CI gem paths cannot capture
+  throwaway fixture gems.
+
 ### Security
 
 ## [0.1.0] - 2026-06-11
