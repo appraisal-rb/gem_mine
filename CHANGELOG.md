@@ -31,6 +31,9 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Fixed
 
+- Corrected generated repository metadata and documentation links to use the
+  `appraisal-rb/gem_mine` repository owner.
+
 ### Security
 
 ## [0.1.0] - 2025-08-30

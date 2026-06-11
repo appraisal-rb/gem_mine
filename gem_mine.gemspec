@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "⛏️ Tools for creating and cleaning up scaffolded Ruby gem workspaces."
   spec.description = "⛏️ Provides helpers for setting up temporary scaffolded gem projects and reliably tearing them down after tests."
-  spec.homepage = "https://github.com/pboling/gem_mine"
+  spec.homepage = "https://github.com/appraisal-rb/gem_mine"
   spec.licenses = ["MIT"]
   spec.required_ruby_version = ">= 3.2.0"
 

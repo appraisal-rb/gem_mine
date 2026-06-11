@@ -1,4 +1,4 @@
-<a href="https://github.com/pboling"><img alt="pboling Logo by Aboling0, CC BY-SA 4.0" src="https://logos.galtzo.com/assets/images/pboling/avatar-128px.svg" width="14%" align="right"/></a>
+<a href="https://github.com/appraisal-rb"><img alt="appraisal-rb Logo by Aboling0, CC BY-SA 4.0" src="https://logos.galtzo.com/assets/images/appraisal-rb/avatar-128px.svg" width="14%" align="right"/></a>
 
 # ⛏️ GemMine
 
@@ -61,14 +61,14 @@ not practical for the current toolchain.
 
 | Federated [DVCS][💎d-in-dvcs] Repository | Status | Issues | PRs | Wiki | CI | Discussions |
 |-------------------------------------------------|-----------------------------------------------------------------------|---------------------------|--------------------------|---------------------------|--------------------------|------------------------------|
-| 🧪 [pboling/gem_mine on GitLab][📜src-gl] | The Truth | [💚][🤝gl-issues] | [💚][🤝gl-pulls] | [💚][📜gl-wiki] | 🐭 Tiny Matrix | ➖ |
-| 🧊 [pboling/gem_mine on CodeBerg][📜src-cb] | An Ethical Mirror ([Donate][🤝cb-donate]) | [💚][🤝cb-issues] | [💚][🤝cb-pulls] | ➖ | ⭕️ No Matrix | ➖ |
-| 🐙 [pboling/gem_mine on GitHub][📜src-gh] | Another Mirror | [💚][🤝gh-issues] | [💚][🤝gh-pulls] | [💚][📜gh-wiki] | 💯 Full Matrix | [💚][gh-discussions] |
+| 🧪 [appraisal-rb/gem_mine on GitLab][📜src-gl] | The Truth | [💚][🤝gl-issues] | [💚][🤝gl-pulls] | [💚][📜gl-wiki] | 🐭 Tiny Matrix | ➖ |
+| 🧊 [appraisal-rb/gem_mine on CodeBerg][📜src-cb] | An Ethical Mirror ([Donate][🤝cb-donate]) | [💚][🤝cb-issues] | [💚][🤝cb-pulls] | ➖ | ⭕️ No Matrix | ➖ |
+| 🐙 [appraisal-rb/gem_mine on GitHub][📜src-gh] | Another Mirror | [💚][🤝gh-issues] | [💚][🤝gh-pulls] | [💚][📜gh-wiki] | 💯 Full Matrix | [💚][gh-discussions] |
 | 🎮️ [Discord Server][✉️discord-invite] | [![Live Chat on Discord][✉️discord-invite-img-ftb]][✉️discord-invite] | [Let's][✉️discord-invite] | [talk][✉️discord-invite] | [about][✉️discord-invite] | [this][✉️discord-invite] | [library!][✉️discord-invite] |
 
 </details>
 
-[gh-discussions]: https://github.com/pboling/gem_mine/discussions
+[gh-discussions]: https://github.com/appraisal-rb/gem_mine/discussions
 
 ### Enterprise Support [![Tidelift](https://tidelift.com/badges/package/rubygems/gem_mine)](https://tidelift.com/subscription/pkg/rubygems-gem_mine?utm_source=rubygems-gem_mine&utm_medium=referral&utm_campaign=readme)
 
@@ -126,17 +126,17 @@ shaped; the intended flow is:
 
 ## 🦷 FLOSS Funding
 
-While pboling tools are free software and will always be, the project would benefit immensely from some funding.
+While appraisal-rb tools are free software and will always be, the project would benefit immensely from some funding.
 Raising a monthly budget of... "dollars" would make the project more sustainable.
 
 We welcome both individual and corporate sponsors! We also offer a
 wide array of funding channels to account for your preferences.
 Currently, [Open Collective][🖇osc] is our preferred funding platform.
 
-**If you're working in a company that's making significant use of pboling tools we'd
-appreciate it if you suggest to your company to become a pboling sponsor.**
+**If you're working in a company that's making significant use of appraisal-rb tools we'd
+appreciate it if you suggest to your company to become a appraisal-rb sponsor.**
 
-You can support the development of pboling tools via
+You can support the development of appraisal-rb tools via
 [GitHub Sponsors][🖇sponsor],
 [Liberapay][⛳liberapay],
 [PayPal][🖇paypal],
@@ -167,7 +167,7 @@ NOTE: [kettle-readme-backers][kettle-readme-backers] updates this list every day
 No sponsors yet. Be the first!
 <!-- OPENCOLLECTIVE-ORGANIZATIONS:END -->
 
-[kettle-readme-backers]: https://github.com/pboling/gem_mine/blob/main/exe/kettle-readme-backers
+[kettle-readme-backers]: https://github.com/appraisal-rb/gem_mine/blob/main/exe/kettle-readme-backers
 
 ### Another way to support open-source
 
@@ -223,16 +223,16 @@ chat rooms and mailing lists agrees to follow the [![Contributor Covenant 2.1][�
 
 Made with [contributors-img][🖐contrib-rocks].
 
-Also see GitLab Contributors: [https://gitlab.com/pboling/gem_mine/-/graphs/main][🚎contributors-gl]
+Also see GitLab Contributors: [https://gitlab.com/appraisal-rb/gem_mine/-/graphs/main][🚎contributors-gl]
 
 <details>
  <summary>⭐️ Star History</summary>
 
-<a href="https://star-history.com/pboling/gem_mine&Date">
+<a href="https://star-history.com/appraisal-rb/gem_mine&Date">
  <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=pboling/gem_mine&type=Date&theme=dark" />
- <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=pboling/gem_mine&type=Date" />
- <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=pboling/gem_mine&type=Date" />
+ <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=appraisal-rb/gem_mine&type=Date&theme=dark" />
+ <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=appraisal-rb/gem_mine&type=Date" />
+ <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=appraisal-rb/gem_mine&type=Date" />
  </picture>
 </a>
 
@@ -340,12 +340,12 @@ Thanks for RTFM. ☺️
 [✉️ruby-friends]: https://app.daily.dev/squads/rubyfriends
 
 [✇bundle-group-pattern]: https://gist.github.com/pboling/4564780
-[⛳️gem-namespace]: https://github.com/pboling/gem_mine
+[⛳️gem-namespace]: https://github.com/appraisal-rb/gem_mine
 [⛳️namespace-img]: https://img.shields.io/badge/namespace-GemMine-3C2D2D.svg?style=square&logo=ruby&logoColor=white
 [⛳️gem-name]: https://bestgems.org/gems/gem_mine
 [⛳️name-img]: https://img.shields.io/badge/name-gem__mine-3C2D2D.svg?style=square&logo=rubygems&logoColor=red
-[⛳️tag-img]: https://img.shields.io/github/tag/pboling/gem_mine.svg
-[⛳️tag]: https://github.com/pboling/gem_mine/releases
+[⛳️tag-img]: https://img.shields.io/github/tag/appraisal-rb/gem_mine.svg
+[⛳️tag]: https://github.com/appraisal-rb/gem_mine/releases
 [🚂maint-blog]: http://www.railsbling.com/tags/gem_mine
 [🚂maint-blog-img]: https://img.shields.io/badge/blog-railsbling-0093D0.svg?style=for-the-badge&logo=rubyonrails&logoColor=orange
 [🚂maint-contact]: http://www.railsbling.com/contact
@@ -380,54 +380,54 @@ Thanks for RTFM. ☺️
 [💁🏼‍♂️peterboling]: http://www.peterboling.com
 [🚂railsbling]: http://www.railsbling.com
 [📜src-gl-img]: https://img.shields.io/badge/GitLab-FBA326?style=for-the-badge&logo=Gitlab&logoColor=orange
-[📜src-gl]: https://gitlab.com/pboling/gem_mine
+[📜src-gl]: https://gitlab.com/appraisal-rb/gem_mine
 [📜src-cb-img]: https://img.shields.io/badge/CodeBerg-4893CC?style=for-the-badge&logo=CodeBerg&logoColor=blue
-[📜src-cb]: https://codeberg.org/pboling/gem_mine
+[📜src-cb]: https://codeberg.org/appraisal-rb/gem_mine
 [📜src-gh-img]: https://img.shields.io/badge/GitHub-238636?style=for-the-badge&logo=Github&logoColor=green
-[📜src-gh]: https://github.com/pboling/gem_mine
+[📜src-gh]: https://github.com/appraisal-rb/gem_mine
 [📜docs-cr-rd-img]: https://img.shields.io/badge/RubyDoc-Current_Release-943CD2?style=for-the-badge&logo=readthedocs&logoColor=white
 [📜docs-head-rd-img]: https://img.shields.io/badge/YARD_on_Galtzo.com-HEAD-943CD2?style=for-the-badge&logo=readthedocs&logoColor=white
-[📜gl-wiki]: https://gitlab.com/pboling/gem_mine/-/wikis/home
-[📜gh-wiki]: https://github.com/pboling/gem_mine/wiki
+[📜gl-wiki]: https://gitlab.com/appraisal-rb/gem_mine/-/wikis/home
+[📜gh-wiki]: https://github.com/appraisal-rb/gem_mine/wiki
 [📜gl-wiki-img]: https://img.shields.io/badge/wiki-gitlab-943CD2.svg?style=for-the-badge&logo=gitlab&logoColor=white
 [📜gh-wiki-img]: https://img.shields.io/badge/wiki-github-943CD2.svg?style=for-the-badge&logo=github&logoColor=white
 [👽dl-rank]: https://bestgems.org/gems/gem_mine
 [👽dl-ranki]: https://img.shields.io/gem/rd/gem_mine.svg
 [👽version]: https://bestgems.org/gems/gem_mine
 [👽versioni]: https://img.shields.io/gem/v/gem_mine.svg
-[🏀qlty-mnt]: https://qlty.sh/gh/pboling/projects/gem_mine
-[🏀qlty-mnti]: https://qlty.sh/gh/pboling/projects/gem_mine/maintainability.svg
-[🏀qlty-cov]: https://qlty.sh/gh/pboling/projects/gem_mine/metrics/code?sort=coverageRating
-[🏀qlty-covi]: https://qlty.sh/gh/pboling/projects/gem_mine/coverage.svg
-[🏀codecov]: https://codecov.io/gh/pboling/gem_mine
-[🏀codecovi]: https://codecov.io/gh/pboling/gem_mine/graph/badge.svg
-[🏀coveralls]: https://coveralls.io/github/pboling/gem_mine?branch=main
-[🏀coveralls-img]: https://coveralls.io/repos/github/pboling/gem_mine/badge.svg?branch=main
-[🚎ruby-3.2-wf]: https://github.com/pboling/gem_mine/actions/workflows/ruby-3.2.yml
-[🚎ruby-3.3-wf]: https://github.com/pboling/gem_mine/actions/workflows/ruby-3.3.yml
-[🚎ruby-3.4-wf]: https://github.com/pboling/gem_mine/actions/workflows/ruby-3.4.yml
-[🚎truby-24.2-wf]: https://github.com/pboling/gem_mine/actions/workflows/truffleruby-24.2.yml
-[🚎truby-25.0-wf]: https://github.com/pboling/gem_mine/actions/workflows/truffleruby-25.0.yml
-[🚎2-cov-wf]: https://github.com/pboling/gem_mine/actions/workflows/coverage.yml
-[🚎2-cov-wfi]: https://github.com/pboling/gem_mine/actions/workflows/coverage.yml/badge.svg
-[🚎3-hd-wf]: https://github.com/pboling/gem_mine/actions/workflows/heads.yml
-[🚎3-hd-wfi]: https://github.com/pboling/gem_mine/actions/workflows/heads.yml/badge.svg
-[🚎5-st-wf]: https://github.com/pboling/gem_mine/actions/workflows/style.yml
-[🚎5-st-wfi]: https://github.com/pboling/gem_mine/actions/workflows/style.yml/badge.svg
-[🚎9-t-wf]: https://github.com/pboling/gem_mine/actions/workflows/truffle.yml
-[🚎9-t-wfi]: https://github.com/pboling/gem_mine/actions/workflows/truffle.yml/badge.svg
-[🚎10-j-wf]: https://github.com/pboling/gem_mine/actions/workflows/jruby.yml
-[🚎10-j-wfi]: https://github.com/pboling/gem_mine/actions/workflows/jruby.yml/badge.svg
-[🚎11-c-wf]: https://github.com/pboling/gem_mine/actions/workflows/current.yml
-[🚎11-c-wfi]: https://github.com/pboling/gem_mine/actions/workflows/current.yml/badge.svg
-[🚎12-crh-wf]: https://github.com/pboling/gem_mine/actions/workflows/dep-heads.yml
-[🚎12-crh-wfi]: https://github.com/pboling/gem_mine/actions/workflows/dep-heads.yml/badge.svg
-[🚎13-🔒️-wf]: https://github.com/pboling/gem_mine/actions/workflows/locked_deps.yml
-[🚎13-🔒️-wfi]: https://github.com/pboling/gem_mine/actions/workflows/locked_deps.yml/badge.svg
-[🚎14-🔓️-wf]: https://github.com/pboling/gem_mine/actions/workflows/unlocked_deps.yml
-[🚎14-🔓️-wfi]: https://github.com/pboling/gem_mine/actions/workflows/unlocked_deps.yml/badge.svg
-[🚎15-🪪-wf]: https://github.com/pboling/gem_mine/actions/workflows/license-eye.yml
-[🚎15-🪪-wfi]: https://github.com/pboling/gem_mine/actions/workflows/license-eye.yml/badge.svg
+[🏀qlty-mnt]: https://qlty.sh/gh/appraisal-rb/projects/gem_mine
+[🏀qlty-mnti]: https://qlty.sh/gh/appraisal-rb/projects/gem_mine/maintainability.svg
+[🏀qlty-cov]: https://qlty.sh/gh/appraisal-rb/projects/gem_mine/metrics/code?sort=coverageRating
+[🏀qlty-covi]: https://qlty.sh/gh/appraisal-rb/projects/gem_mine/coverage.svg
+[🏀codecov]: https://codecov.io/gh/appraisal-rb/gem_mine
+[🏀codecovi]: https://codecov.io/gh/appraisal-rb/gem_mine/graph/badge.svg
+[🏀coveralls]: https://coveralls.io/github/appraisal-rb/gem_mine?branch=main
+[🏀coveralls-img]: https://coveralls.io/repos/github/appraisal-rb/gem_mine/badge.svg?branch=main
+[🚎ruby-3.2-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/ruby-3.2.yml
+[🚎ruby-3.3-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/ruby-3.3.yml
+[🚎ruby-3.4-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/ruby-3.4.yml
+[🚎truby-24.2-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/truffleruby-24.2.yml
+[🚎truby-25.0-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/truffleruby-25.0.yml
+[🚎2-cov-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/coverage.yml
+[🚎2-cov-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/coverage.yml/badge.svg
+[🚎3-hd-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/heads.yml
+[🚎3-hd-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/heads.yml/badge.svg
+[🚎5-st-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/style.yml
+[🚎5-st-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/style.yml/badge.svg
+[🚎9-t-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/truffle.yml
+[🚎9-t-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/truffle.yml/badge.svg
+[🚎10-j-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/jruby.yml
+[🚎10-j-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/jruby.yml/badge.svg
+[🚎11-c-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/current.yml
+[🚎11-c-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/current.yml/badge.svg
+[🚎12-crh-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/dep-heads.yml
+[🚎12-crh-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/dep-heads.yml/badge.svg
+[🚎13-🔒️-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/locked_deps.yml
+[🚎13-🔒️-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/locked_deps.yml/badge.svg
+[🚎14-🔓️-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/unlocked_deps.yml
+[🚎14-🔓️-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/unlocked_deps.yml/badge.svg
+[🚎15-🪪-wf]: https://github.com/appraisal-rb/gem_mine/actions/workflows/license-eye.yml
+[🚎15-🪪-wfi]: https://github.com/appraisal-rb/gem_mine/actions/workflows/license-eye.yml/badge.svg
 [💎ruby-3.2i]: https://img.shields.io/badge/Ruby-3.2-CC342D?style=for-the-badge&logo=ruby&logoColor=white
 [💎ruby-3.3i]: https://img.shields.io/badge/Ruby-3.3-CC342D?style=for-the-badge&logo=ruby&logoColor=white
 [💎ruby-3.4i]: https://img.shields.io/badge/Ruby-3.4-CC342D?style=for-the-badge&logo=ruby&logoColor=white
@@ -439,34 +439,34 @@ Thanks for RTFM. ☺️
 [💎truby-c-i]: https://img.shields.io/badge/Truffle_Ruby-current-34BCB1?style=for-the-badge&logo=ruby&logoColor=green
 [💎jruby-c-i]: https://img.shields.io/badge/JRuby-current-FBE742?style=for-the-badge&logo=ruby&logoColor=green
 [💎jruby-headi]: https://img.shields.io/badge/JRuby-HEAD-FBE742?style=for-the-badge&logo=ruby&logoColor=blue
-[🤝gh-issues]: https://github.com/pboling/gem_mine/issues
-[🤝gh-pulls]: https://github.com/pboling/gem_mine/pulls
-[🤝gl-issues]: https://gitlab.com/pboling/gem_mine/-/issues
-[🤝gl-pulls]: https://gitlab.com/pboling/gem_mine/-/merge_requests
-[🤝cb-issues]: https://codeberg.org/pboling/gem_mine/issues
-[🤝cb-pulls]: https://codeberg.org/pboling/gem_mine/pulls
+[🤝gh-issues]: https://github.com/appraisal-rb/gem_mine/issues
+[🤝gh-pulls]: https://github.com/appraisal-rb/gem_mine/pulls
+[🤝gl-issues]: https://gitlab.com/appraisal-rb/gem_mine/-/issues
+[🤝gl-pulls]: https://gitlab.com/appraisal-rb/gem_mine/-/merge_requests
+[🤝cb-issues]: https://codeberg.org/appraisal-rb/gem_mine/issues
+[🤝cb-pulls]: https://codeberg.org/appraisal-rb/gem_mine/pulls
 [🤝cb-donate]: https://donate.codeberg.org/
-[🤝contributing]: https://github.com/pboling/gem_mine/blob/main/CONTRIBUTING.md
-[🏀codecov-g]: https://codecov.io/gh/pboling/gem_mine/graph/badge.svg
+[🤝contributing]: https://github.com/appraisal-rb/gem_mine/blob/main/CONTRIBUTING.md
+[🏀codecov-g]: https://codecov.io/gh/appraisal-rb/gem_mine/graph/badge.svg
 [🖐contrib-rocks]: https://contrib.rocks
-[🖐contributors]: https://github.com/pboling/gem_mine/graphs/contributors
-[🖐contributors-img]: https://contrib.rocks/image?repo=pboling/gem_mine
-[🚎contributors-gl]: https://gitlab.com/pboling/gem_mine/-/graphs/main
-[🪇conduct]: https://github.com/pboling/gem_mine/blob/main/CODE_OF_CONDUCT.md
+[🖐contributors]: https://github.com/appraisal-rb/gem_mine/graphs/contributors
+[🖐contributors-img]: https://contrib.rocks/image?repo=appraisal-rb/gem_mine
+[🚎contributors-gl]: https://gitlab.com/appraisal-rb/gem_mine/-/graphs/main
+[🪇conduct]: https://github.com/appraisal-rb/gem_mine/blob/main/CODE_OF_CONDUCT.md
 [🪇conduct-img]: https://img.shields.io/badge/Contributor_Covenant-2.1-259D6C.svg
 [📌pvc]: http://guides.rubygems.org/patterns/#pessimistic-version-constraint
 [📌semver]: https://semver.org/spec/v2.0.0.html
 [📌semver-img]: https://img.shields.io/badge/semver-2.0.0-259D6C.svg?style=flat
 [📌semver-breaking]: https://github.com/semver/semver/issues/716#issuecomment-869336139
 [📌major-versions-not-sacred]: https://tom.preston-werner.com/2022/05/23/major-version-numbers-are-not-sacred.html
-[📌changelog]: https://github.com/pboling/gem_mine/blob/main/CHANGELOG.md
+[📌changelog]: https://github.com/appraisal-rb/gem_mine/blob/main/CHANGELOG.md
 [📗keep-changelog]: https://keepachangelog.com/en/1.0.0/
 [📗keep-changelog-img]: https://img.shields.io/badge/keep--a--changelog-1.0.0-34495e.svg?style=flat
 [📌gitmoji]: https://gitmoji.dev
 [📌gitmoji-img]: https://img.shields.io/badge/gitmoji_commits-%20%F0%9F%98%9C%20%F0%9F%98%8D-34495e.svg?style=flat-square
 [🧮kloc]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 [🧮kloc-img]: https://img.shields.io/badge/KLOC-5.053-FFDD67.svg?style=for-the-badge&logo=YouTube&logoColor=blue
-[🔐security]: https://github.com/pboling/gem_mine/blob/main/SECURITY.md
+[🔐security]: https://github.com/appraisal-rb/gem_mine/blob/main/SECURITY.md
 [🔐security-img]: https://img.shields.io/badge/security-policy-259D6C.svg?style=flat
 [📄copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
 [📄license]: LICENSE.md
@@ -480,7 +480,7 @@ Thanks for RTFM. ☺️
 [🚎yard-current]: http://rubydoc.info/gems/gem_mine
 [🚎yard-head]: https://gem-mine.galtzo.com
 [💎stone_checksums]: https://github.com/galtzo-floss/stone_checksums
-[💎SHA_checksums]: https://gitlab.com/pboling/gem_mine/-/tree/main/checksums
+[💎SHA_checksums]: https://gitlab.com/appraisal-rb/gem_mine/-/tree/main/checksums
 [💎rlts]: https://github.com/rubocop-lts/rubocop-lts
 [💎rlts-img]: https://img.shields.io/badge/code_style_&_linting-rubocop--lts-34495e.svg?plastic&logo=ruby&logoColor=white
 [💎appraisal2]: https://github.com/appraisal-rb/appraisal2
@@ -492,8 +492,8 @@ Thanks for RTFM. ☺️
 |---|---|
 | Package | gem_mine |
 | Description | ⛏️ Provides helpers for setting up temporary scaffolded gem projects and reliably tearing them down after tests. |
-| Homepage | https://github.com/pboling/gem_mine |
-| Source | https://github.com/pboling/gem_mine/tree/v0.1.0 |
+| Homepage | https://github.com/appraisal-rb/gem_mine |
+| Source | https://github.com/appraisal-rb/gem_mine/tree/v0.1.0 |
 | License | `MIT` |
 | Funding | https://github.com/sponsors/pboling, https://issuehunt.io/u/pboling, https://ko-fi.com/pboling, https://liberapay.com/pboling/donate, https://opencollective.com/appraisal-rb, https://patreon.com/galtzo, https://polar.sh/pboling, https://thanks.dev/u/gh/pboling, https://tidelift.com/funding/github/rubygems/gem_mine, https://www.buymeacoffee.com/pboling |
 <!-- kettle-jem:metadata:end -->
