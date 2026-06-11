@@ -88,6 +88,11 @@ create a temporary gem project for integration-style tests, run the scenario, an
 tear the project down so test suites do not leave mined-out <code>tmp/spec-process-*</code><br>
 workspaces behind.</p>
 
+<p>The gem intentionally builds tiny fixture gems, not full application templates.<br>
+It writes the minimal gemspec/lib structure needed by Bundler and RubyGems, can<br>
+build and install that fixture into an isolated <code>GEM_HOME</code>, and can initialize a<br>
+local git repository for specs that exercise <code>git</code> sources.</p>
+
 <h2 id="-info-you-can-shake-a-stick-at">💡 Info you can shake a stick at</h2>
 
 <table>
@@ -299,22 +304,58 @@ not practical for the current toolchain.</p>
 
 <h2 id="️-configuration">⚙️ Configuration</h2>
 
-<p>GemMine is still early scaffolding. Configuration will live alongside the helper<br>
-that creates the temporary project root and controls whether failed examples keep<br>
-their generated project for debugging.</p>
+<p>GemMine does not keep global configuration. Callers provide the scaffold root<br>
+and, when installation is needed, the target <code>gem_home</code>.</p>
+
+<p>The defaults intentionally match Appraisal-style fixture gems:</p>
+
+<ul>
+  <li>version: <code>"1.0.0"</code>
+</li>
+  <li>author: <code>"Mr. Smith"</code>
+</li>
+  <li>summary: <code>"summary"</code>
+</li>
+  <li>license: <code>"MIT"</code>
+</li>
+  <li>homepage: <code>"http://github.com/thoughtbot/&lt;gem-name&gt;"</code>
+</li>
+  <li>required Ruby: <code>"&gt;= 1.8.7"</code>
+</li>
+</ul>
 
 <h2 id="-basic-usage">🔧 Basic Usage</h2>
 
 <p>Use GemMine from specs that need a throwaway Ruby gem project instead of<br>
-hand-rolling <code>tmp/</code> paths in each suite. The public helper API is still being<br>
-shaped; the intended flow is:</p>
+hand-rolling <code>tmp/</code> paths in each suite.</p>
 
-<ol>
-  <li>create a temporary scaffolded gem project,</li>
-  <li>run the test scenario against that project, and</li>
-  <li>clean up the generated project unless the caller explicitly keeps it for<br>
-debugging.</li>
-</ol>
+<pre class="code language-ruby"><code class="language-ruby">process_root = File.join(project_root, &quot;tmp&quot;, &quot;spec-process-#{Process.pid}&quot;)
+gem_home = File.join(process_root, &quot;bundler&quot;)
+build_root = File.join(process_root, &quot;build&quot;)
+
+scaffold = GemMine.scaffold(
+  &quot;dummy&quot;,
+  root: File.join(build_root, &quot;dummy&quot;),
+  version: &quot;1.0.0&quot;,
+  gem_home: gem_home
+)
+
+scaffold.built_gem_path
+# =&gt; &quot;.../tmp/spec-process-123/build/dummy/dummy-1.0.0.gem&quot;
+
+GemMine.clean(process_root)
+</code></pre>
+
+<p>For git-source fixtures:</p>
+
+<pre class="code language-ruby"><code class="language-ruby">GemMine.scaffold(
+  &quot;git_dummy&quot;,
+  root: File.join(build_root, &quot;git_dummy&quot;),
+  build: false,
+  install: false,
+  git: true
+)
+</code></pre>
 
 <h2 id="-floss-funding">🦷 FLOSS Funding</h2>
 
@@ -518,7 +559,7 @@ Please consider sponsoring me or the project.</p>
 </div></div>
 
       <div id="footer">
-  Generated on Thu Jun 11 00:09:08 2026 by
+  Generated on Thu Jun 11 00:18:40 2026 by
   <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.44 (ruby-4.0.5).
 </div>

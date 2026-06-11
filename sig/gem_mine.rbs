@@ -1,3 +1,74 @@
 module GemMine
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  class Error < StandardError
+  end
+
+  class CommandError < Error
+    attr_reader command: Array[String]
+    attr_reader status: untyped
+    attr_reader stdout: String
+    attr_reader stderr: String
+  end
+
+  class Scaffold
+    DEFAULT_AUTHOR: String
+    DEFAULT_HOMEPAGE_BASE: String
+    DEFAULT_LICENSE: String
+    DEFAULT_REQUIRED_RUBY_VERSION: String
+    DEFAULT_SUMMARY: String
+    DEFAULT_VERSION: String
+
+    attr_reader name: String
+    attr_reader version: String
+    attr_reader root: String
+    attr_reader gem_home: String?
+    attr_reader author: String
+    attr_reader summary: String
+    attr_reader license: String
+    attr_reader homepage: String
+    attr_reader required_ruby_version: String
+
+    def initialize: (
+      String name,
+      root: String | _ToPath,
+      ?version: String,
+      ?gem_home: String | _ToPath | nil,
+      ?author: String,
+      ?summary: String,
+      ?license: String,
+      ?homepage: String?,
+      ?required_ruby_version: String,
+      ?verbose: bool
+    ) -> void
+
+    def create: () -> self
+    def build: () -> self
+    def install: () -> self
+    def initialize_git: () -> self
+    def clean: () -> self
+
+    def lib_file: () -> String
+    def lib_path: () -> String
+    def gemspec_file: () -> String
+    def gemspec_path: () -> String
+    def built_gem_file: () -> String
+    def built_gem_path: () -> String
+  end
+
+  def self.scaffold: (
+    String name,
+    root: String | _ToPath,
+    ?version: String,
+    ?gem_home: String | _ToPath | nil,
+    ?author: String,
+    ?summary: String,
+    ?license: String,
+    ?homepage: String?,
+    ?required_ruby_version: String,
+    ?verbose: bool,
+    ?build: bool,
+    ?install: bool,
+    ?git: bool
+  ) -> Scaffold
+
+  def self.clean: (String | _ToPath path) -> void
 end

@@ -20,6 +20,9 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Added
 
+- Added a `GemMine::Scaffold` API and `GemMine.scaffold` helper for creating,
+  building, installing, git-initializing, and cleaning up minimal fixture gems.
+
 ### Changed
 
 - Retemplated with the current kettle-jem template set, adding modern project

@@ -26,6 +26,11 @@ create a temporary gem project for integration-style tests, run the scenario, an
 tear the project down so test suites do not leave mined-out `tmp/spec-process-*`
 workspaces behind.
 
+The gem intentionally builds tiny fixture gems, not full application templates.
+It writes the minimal gemspec/lib structure needed by Bundler and RubyGems, can
+build and install that fixture into an isolated `GEM_HOME`, and can initialize a
+local git repository for specs that exercise `git` sources.
+
 ## 💡 Info you can shake a stick at
 
 | Tokens to Remember | [![Gem name][⛳️name-img]][⛳️gem-name] [![Gem namespace][⛳️namespace-img]][⛳️gem-namespace] |
@@ -109,20 +114,52 @@ gem install gem_mine
 
 ## ⚙️ Configuration
 
-GemMine is still early scaffolding. Configuration will live alongside the helper
-that creates the temporary project root and controls whether failed examples keep
-their generated project for debugging.
+GemMine does not keep global configuration. Callers provide the scaffold root
+and, when installation is needed, the target `gem_home`.
+
+The defaults intentionally match Appraisal-style fixture gems:
+
+- version: `"1.0.0"`
+- author: `"Mr. Smith"`
+- summary: `"summary"`
+- license: `"MIT"`
+- homepage: `"http://github.com/thoughtbot/<gem-name>"`
+- required Ruby: `">= 1.8.7"`
 
 ## 🔧 Basic Usage
 
 Use GemMine from specs that need a throwaway Ruby gem project instead of
-hand-rolling `tmp/` paths in each suite. The public helper API is still being
-shaped; the intended flow is:
+hand-rolling `tmp/` paths in each suite.
 
-1. create a temporary scaffolded gem project,
-2. run the test scenario against that project, and
-3. clean up the generated project unless the caller explicitly keeps it for
-   debugging.
+```ruby
+process_root = File.join(project_root, "tmp", "spec-process-#{Process.pid}")
+gem_home = File.join(process_root, "bundler")
+build_root = File.join(process_root, "build")
+
+scaffold = GemMine.scaffold(
+  "dummy",
+  root: File.join(build_root, "dummy"),
+  version: "1.0.0",
+  gem_home: gem_home
+)
+
+scaffold.built_gem_path
+# => ".../tmp/spec-process-123/build/dummy/dummy-1.0.0.gem"
+
+GemMine.clean(process_root)
+```
+
+For git-source fixtures:
+
+```ruby
+GemMine.scaffold(
+  "git_dummy",
+  root: File.join(build_root, "git_dummy"),
+  build: false,
+  install: false,
+  git: true
+)
+```
 
 ## 🦷 FLOSS Funding
 
