@@ -28,17 +28,13 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Fixed
 
-- Isolated scaffold gem installs with explicit `GEM_HOME`, `GEM_PATH`,
-  `--install-dir`, and `--bindir` settings so CI gem paths cannot capture
-  throwaway fixture gems.
-
 ### Security
 
 ## [0.1.0] - 2026-06-11
 
 - TAG: [v0.1.0][0.1.0t]
-- COVERAGE: 100.00% -- 107/107 lines in 2 files
-- BRANCH COVERAGE: 100.00% -- 18/18 branches in 2 files
+- COVERAGE: 99.12% -- 113/114 lines in 2 files
+- BRANCH COVERAGE: 90.91% -- 20/22 branches in 2 files
 - 37.21% documented
 - Initial release
 
