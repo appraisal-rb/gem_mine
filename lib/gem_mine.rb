@@ -89,7 +89,6 @@ module GemMine
       run("git", "init", ".", "--initial-branch=main", chdir: root)
       run("git", "config", "user.email", "appraisal@thoughtbot.com", chdir: root)
       run("git", "config", "user.name", "Appraisal", chdir: root)
-      run("git", "config", "commit.gpgsign", "false", chdir: root)
       run("git", "add", ".", chdir: root)
       run("git", "commit", "--all", "--no-verify", "--message", "initial commit", chdir: root)
       self
