@@ -21,6 +21,7 @@ RSpec.describe GemMine::Scaffold do
       expect(path(scaffold.lib_path)).to be_exist
       expect(path(scaffold.built_gem_path)).not_to be_exist
       expect(path(scaffold.gemspec_path).read).to include('s.name    = "dummy"')
+      expect(path(scaffold.gemspec_path).read).to include('s.homepage = "https://github.com/appraisal-rb/dummy"')
       expect(path(scaffold.lib_path).read).to eq("$dummy_version = \"1.2.3\"\n")
     end
   end
@@ -68,6 +69,8 @@ RSpec.describe GemMine::Scaffold do
 
       expect(dir.join("git_dummy/.git")).to be_directory
       expect(`git -C #{Shellwords.escape(scaffold.root)} log --oneline`).to include("initial commit")
+      expect(`git -C #{Shellwords.escape(scaffold.root)} config user.email`).to eq("gem_mine@appraisal-rb.local\n")
+      expect(`git -C #{Shellwords.escape(scaffold.root)} config user.name`).to eq("GemMine\n")
     end
   end
 

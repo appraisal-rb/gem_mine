@@ -11,6 +11,8 @@ module GemMine
 
   class Scaffold
     DEFAULT_AUTHOR: String
+    DEFAULT_GIT_USER_EMAIL: String
+    DEFAULT_GIT_USER_NAME: String
     DEFAULT_HOMEPAGE_BASE: String
     DEFAULT_LICENSE: String
     DEFAULT_REQUIRED_RUBY_VERSION: String

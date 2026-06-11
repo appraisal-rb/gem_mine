@@ -36,6 +36,8 @@ Please file a bug if you notice a violation of semantic versioning.
 
 - Corrected generated repository metadata and documentation links to use the
   `appraisal-rb/gem_mine` repository owner.
+- Corrected generated fixture gem defaults to avoid Thoughtbot repository and
+  git author metadata.
 
 ### Security
 

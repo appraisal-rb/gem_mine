@@ -117,13 +117,14 @@ gem install gem_mine
 GemMine does not keep global configuration. Callers provide the scaffold root
 and, when installation is needed, the target `gem_home`.
 
-The defaults intentionally match Appraisal-style fixture gems:
+By default, generated fixture gems are tiny, valid RubyGem packages with enough
+metadata for Bundler and RubyGems to build, install, and resolve them in tests:
 
 - version: `"1.0.0"`
 - author: `"Mr. Smith"`
 - summary: `"summary"`
 - license: `"MIT"`
-- homepage: `"http://github.com/thoughtbot/<gem-name>"`
+- homepage: `"https://github.com/appraisal-rb/<gem-name>"`
 - required Ruby: `">= 1.8.7"`
 
 ## 🔧 Basic Usage

@@ -25,7 +25,9 @@ module GemMine
 
   class Scaffold
     DEFAULT_AUTHOR = "Mr. Smith"
-    DEFAULT_HOMEPAGE_BASE = "http://github.com/thoughtbot"
+    DEFAULT_GIT_USER_EMAIL = "gem_mine@appraisal-rb.local"
+    DEFAULT_GIT_USER_NAME = "GemMine"
+    DEFAULT_HOMEPAGE_BASE = "https://github.com/appraisal-rb"
     DEFAULT_LICENSE = "MIT"
     DEFAULT_REQUIRED_RUBY_VERSION = ">= 1.8.7"
     DEFAULT_SUMMARY = "summary"
@@ -87,8 +89,8 @@ module GemMine
     def initialize_git
       create unless File.file?(gemspec_path)
       run("git", "init", ".", "--initial-branch=main", chdir: root)
-      run("git", "config", "user.email", "appraisal@thoughtbot.com", chdir: root)
-      run("git", "config", "user.name", "Appraisal", chdir: root)
+      run("git", "config", "user.email", DEFAULT_GIT_USER_EMAIL, chdir: root)
+      run("git", "config", "user.name", DEFAULT_GIT_USER_NAME, chdir: root)
       run("git", "add", ".", chdir: root)
       run("git", "commit", "--all", "--no-verify", "--message", "initial commit", chdir: root)
       self
