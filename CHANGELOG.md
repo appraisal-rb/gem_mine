@@ -20,11 +20,7 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Added
 
-- Added support for JRuby 10.1 and TruffleRuby 34.0.
-
 ### Changed
-
-- Retemplated project metadata and CI/development automation with `kettle-jem` v7.0.0.
 
 ### Deprecated
 
@@ -33,6 +29,21 @@ Please file a bug if you notice a violation of semantic versioning.
 ### Fixed
 
 ### Security
+
+## [0.1.1] - 2026-06-23
+
+- TAG: [v0.1.1][0.1.1t]
+- COVERAGE: 99.12% -- 113/114 lines in 2 files
+- BRANCH COVERAGE: 90.91% -- 20/22 branches in 2 files
+- 37.21% documented
+
+### Added
+
+- Added support for JRuby 10.1 and TruffleRuby 34.0.
+
+### Changed
+
+- Retemplated project metadata and CI/development automation with `kettle-jem` v7.0.0.
 
 ## [0.1.0] - 2026-06-11
 
@@ -60,6 +71,8 @@ Please file a bug if you notice a violation of semantic versioning.
   git author metadata.
 - Corrected the gemspec public author email to use `floss@galtzo.com`.
 
-[Unreleased]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.0...v0.1.1
+[0.1.1t]: https://github.com/appraisal-rb/gem_mine/releases/tag/v0.1.1
 [0.1.0]: https://github.com/appraisal-rb/gem_mine/compare/ee8f9f471c0f1aa5bdb950b17de9f07cdcd25402...v0.1.0
 [0.1.0t]: https://github.com/appraisal-rb/gem_mine/releases/tag/v0.1.0
