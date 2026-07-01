@@ -28,9 +28,18 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Fixed
 
-- Package configured license files in gem release file lists.
-
 ### Security
+
+## [0.1.2] - 2026-07-01
+
+- TAG: [v0.1.2][0.1.2t]
+- COVERAGE: 99.12% -- 113/114 lines in 2 files
+- BRANCH COVERAGE: 90.91% -- 20/22 branches in 2 files
+- 37.21% documented
+
+### Fixed
+
+- Package configured license files in gem release file lists.
 
 ## [0.1.1] - 2026-06-23
 
@@ -73,7 +82,9 @@ Please file a bug if you notice a violation of semantic versioning.
   git author metadata.
 - Corrected the gemspec public author email to use `floss@galtzo.com`.
 
-[Unreleased]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.1...v0.1.2
+[0.1.2t]: https://github.com/appraisal-rb/gem_mine/releases/tag/v0.1.2
 [0.1.1]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.0...v0.1.1
 [0.1.1t]: https://github.com/appraisal-rb/gem_mine/releases/tag/v0.1.1
 [0.1.0]: https://github.com/appraisal-rb/gem_mine/compare/ee8f9f471c0f1aa5bdb950b17de9f07cdcd25402...v0.1.0
