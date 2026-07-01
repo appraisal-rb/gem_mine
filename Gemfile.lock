@@ -8,7 +8,7 @@ GIT
 PATH
   remote: .
   specs:
-    gem_mine (0.1.1)
+    gem_mine (0.1.2)
       version_gem (~> 1.1, >= 1.1.13)
 
 GEM
@@ -189,11 +189,10 @@ GEM
     rspec-mocks (3.13.8)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
-    rspec-pending_for (0.1.20)
+    rspec-pending_for (0.1.21)
       rspec-core (~> 3.0)
       ruby_engine (~> 2.0)
       ruby_version (~> 1.0)
-      version_gem (~> 1.1, >= 1.1.8)
     rspec-stubbed_env (1.0.5)
     rspec-support (3.13.7)
     rspec_junit_formatter (0.6.0)
@@ -405,8 +404,6 @@ DEPENDENCIES
   rdoc (~> 6.11)
   reek (~> 6.5, >= 6.5.0)
   require_bench (~> 1.0, >= 1.0.4)
-  rspec (~> 3.0)
-  rubocop (~> 1.21)
   rubocop-gradual (~> 0.4, >= 0.4.0)
   rubocop-lts (~> 24.2, >= 24.2.1)
   rubocop-lts-rspec (~> 1.0, >= 1.0.4)
@@ -458,7 +455,7 @@ CHECKSUMS
   emoji_regex (15.0.0) sha256=a508b2c0bee561169564e0aec96085020c900520d335e5533fd8e78e59493829
   erb (6.0.4) sha256=38e3803694be357fe2bfe312487c74beaf9fb4e5beb3e22498952fe1645b95d9
   gem_bench (2.0.5) sha256=0dc0fb44a5a5eb7b2f5c1c68a5b0164d72007132822c012bac3abe976b199ead
-  gem_mine (0.1.1)
+  gem_mine (0.1.2)
   geom2d (0.4.1) sha256=ea0998ea90c4f2752e24fe13d85a4f89bee689d151316140ebcc6369bf634ed9
   gitmoji-regex (2.0.3) sha256=12906fd5306e733c7220434f646e6a442f5d3a0ec297d8079999fee56ab47ea7
   hexapdf (1.9.1) sha256=2d1f6a3622e6bc2a70a707d4c3f3fa44f5552ecd9d899f6283abb07398a84884
@@ -506,7 +503,7 @@ CHECKSUMS
   rspec-core (3.13.6) sha256=a8823c6411667b60a8bca135364351dda34cd55e44ff94c4be4633b37d828b2d
   rspec-expectations (3.13.5) sha256=33a4d3a1d95060aea4c94e9f237030a8f9eae5615e9bd85718fe3a09e4b58836
   rspec-mocks (3.13.8) sha256=086ad3d3d17533f4237643de0b5c42f04b66348c28bf6b9c2d3f4a3b01af1d47
-  rspec-pending_for (0.1.20) sha256=2130c6c959d05b61de1955e7dd986418aec4888b6f80f0711a1f88540a09d3cb
+  rspec-pending_for (0.1.21) sha256=c87fda50c20f8faca72d9cfa6a936abffd37860343f14aced95bbb29b8ae96bf
   rspec-stubbed_env (1.0.5) sha256=5a34bb8879c41c33a75dac5bb41e224aaa7be8d651f5619e826f7d48311f971e
   rspec-support (3.13.7) sha256=0640e5570872aafefd79867901deeeeb40b0c9875a36b983d85f54fb7381c47c
   rspec_junit_formatter (0.6.0) sha256=40dde674e6ae4e6cc0ff560da25497677e34fefd2338cc467a8972f602b62b15
