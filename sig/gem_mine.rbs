@@ -73,4 +73,8 @@ module GemMine
   ) -> Scaffold
 
   def self.clean: (String | _ToPath path) -> void
+  module Version
+    VERSION: String
+  end
+  VERSION: String
 end
