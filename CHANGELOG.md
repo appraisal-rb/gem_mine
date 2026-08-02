@@ -93,6 +93,16 @@ Please file a bug if you notice a violation of semantic versioning.
   relative to the gemspec directory, so release package contents stay correct
   even when the gemspec is loaded from another working directory.
 
+- kettle-jem-template-20260801-002 - Generated RSpec helpers now normalize
+  managed configuration block bindings structurally, preventing mixed block
+  parameter names from producing invalid configuration after a merge.
+- kettle-jem-template-20260801-003 - Generated project metadata and
+  documentation now normalize configured underscore hostnames to valid
+  hyphenated hostnames.
+- kettle-jem-template-20260801-004 - Generated organization README logos now
+  use GitHub's stable organization avatar endpoint instead of assuming a
+  matching Galtzo-hosted asset exists.
+
 ### Security
 
 ## [0.1.2] - 2026-07-01
