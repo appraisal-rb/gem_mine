@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.description = "⛏️ Provides helpers for setting up temporary scaffolded gem projects and reliably tearing them down after tests."
   spec.homepage = "https://github.com/appraisal-rb/gem_mine"
   spec.licenses = ["MIT"]
-  spec.required_ruby_version = ">= 3.2.0"
+  spec.required_ruby_version = ">= 2.3.0"
 
   # Linux distros often package gems and securely certify them independent
   #   of the official RubyGem certification process. Allowed via ENV["SKIP_GEM_SIGNING"]
@@ -105,7 +105,7 @@ Gem::Specification.new do |spec|
   #       This gem, and its gemspec development dependencies, will install on Ruby down to 3.2.0.
   #       Thus, dev dependencies in gemspec must have
   #
-  #       required_ruby_version ">= 3.2.0" (or lower)
+  #       required_ruby_version ">= 2.3.0" (or lower)
   #
   #       Development dependencies that require strictly newer Ruby versions should be in a "gemfile",
   #       and preferably a modular one (see gemfiles/modular/*.gemfile).

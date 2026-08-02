@@ -43,4 +43,9 @@ RSpec.describe GemMine do
       expect(Pathname(path)).not_to be_exist
     end
   end
+
+  it "normalizes conventional gem names to Ruby constant names" do
+    expect(described_class::Helpers.camelize("fixture_gem_01")).to eq("FixtureGem01")
+    expect(described_class::Helpers.camelize("fixture gem")).to eq("FixtureGem")
+  end
 end

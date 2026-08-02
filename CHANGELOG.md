@@ -33,6 +33,8 @@ Please file a bug if you notice a violation of semantic versioning.
   project's RubyForum tag as `mailing_list_uri`, and support docs link to the
   tagged RubyForum community alongside Discord.
 
+- Add GemMine::Helpers.camelize for fixture generators that need conventional gem names converted to Ruby constant names.
+
 ### Changed
 
 - kettle-jem-template-20260716-002 - Gemspecs now ship fewer repository-only

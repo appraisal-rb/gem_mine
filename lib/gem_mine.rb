@@ -6,6 +6,7 @@ require "fileutils"
 require "open3"
 require "shellwords"
 
+require_relative "gem_mine/helpers"
 require_relative "gem_mine/version"
 
 module GemMine
