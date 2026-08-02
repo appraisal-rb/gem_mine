@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.description = "⛏️ Provides helpers for setting up temporary scaffolded gem projects and reliably tearing them down after tests."
   spec.homepage = "https://github.com/appraisal-rb/gem_mine"
   spec.licenses = ["MIT"]
-  spec.required_ruby_version = ">= 2.3.0"
+  spec.required_ruby_version = ">= 3.2.0"
 
   # Linux distros often package gems and securely certify them independent
   #   of the official RubyGem certification process. Allowed via ENV["SKIP_GEM_SIGNING"]
@@ -95,7 +95,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Utilities
-  spec.add_dependency("version_gem", "~> 1.1", ">= 1.1.14")              # ruby >= 2.2.0
+  spec.add_dependency("version_gem", "~> 1.1", ">= 1.1.15")              # ruby >= 2.2.0
 
   # NOTE: It is preferable to list development dependencies in the gemspec due to increased
   #       visibility and discoverability.
@@ -105,13 +105,13 @@ Gem::Specification.new do |spec|
   #       This gem, and its gemspec development dependencies, will install on Ruby down to 3.2.0.
   #       Thus, dev dependencies in gemspec must have
   #
-  #       required_ruby_version ">= 2.3.0" (or lower)
+  #       required_ruby_version ">= 3.2.0" (or lower)
   #
   #       Development dependencies that require strictly newer Ruby versions should be in a "gemfile",
   #       and preferably a modular one (see gemfiles/modular/*.gemfile).
 
   # Dev, Test, & Release Tasks
-  spec.add_development_dependency("kettle-dev", "~> 2.5", ">= 2.5.14")             # ruby >= 3.2.0
+  spec.add_development_dependency("kettle-dev", "~> 2.5", ">= 2.5.16")             # ruby >= 3.2.0
 
   # Security
   spec.add_development_dependency("bundler-audit", "~> 0.9.3")                      # ruby >= 2.0.0
@@ -126,7 +126,7 @@ Gem::Specification.new do |spec|
   # Loads version files in anonymous namespaces for coverage without constant redefinition warnings.
   spec.add_development_dependency("anonymous_loader", "~> 0.1", ">= 0.1.3")         # ruby >= 2.2.0
   spec.add_development_dependency("appraisal2", "~> 3.2", ">= 3.2.0")               # ruby >= 1.8.7, for testing against multiple versions of dependencies
-  spec.add_development_dependency("kettle-test", "~> 2.0", ">= 2.0.17")            # ruby >= 3.2.0
+  spec.add_development_dependency("kettle-test", "~> 2.0", ">= 2.0.18")            # ruby >= 3.2.0
   spec.add_development_dependency("turbo_tests2", "~> 3.2", ">= 3.2.4")           # ruby >= 2.4.0, default kettle-test runner
 
   # Releasing

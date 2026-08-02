@@ -3,7 +3,7 @@
 module GemMine
   # Small, dependency-free helpers for fixture naming.
   module Helpers
-    SPLIT_UNDERSCORE_OR_SPACE = /[_\s]+/.freeze
+    SPLIT_UNDERSCORE_OR_SPACE = /[_\s]+/
 
     module_function
 
