@@ -22,8 +22,8 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Changed
 
-- [kc] kettle-jem/prepare: updated 28 project files:
-  - dependencies (26)
+- [kc] kettle-jem/prepare: updated 32 project files:
+  - dependencies (30)
   - other (2)
 
 - [kc] kettle-jem/template: updated 7 project files:
