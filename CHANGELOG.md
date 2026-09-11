@@ -22,6 +22,23 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Changed
 
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [0.1.6] - 2026-09-11
+
+- TAG: [v0.1.6][0.1.6t]
+- COVERAGE: 99.18% -- 121/122 lines in 3 files
+- BRANCH COVERAGE: 87.50% -- 21/24 branches in 3 files
+- 43.48% documented
+
+### Changed
+
 - [kc] kettle-jem/prepare: updated 10 project files:
   - code and tests (1)
   - dependencies (9)
@@ -30,14 +47,6 @@ Please file a bug if you notice a violation of semantic versioning.
   - code and tests (1)
   - dependencies (2)
   - other (1)
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
 
 ## [0.1.5] - 2026-09-01
 
@@ -203,7 +212,9 @@ Please file a bug if you notice a violation of semantic versioning.
   git author metadata.
 - Corrected the gemspec public author email to use `floss@galtzo.com`.
 
-[Unreleased]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.5...HEAD
+[Unreleased]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.6...HEAD
+[0.1.6]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.5...v0.1.6
+[0.1.6t]: https://github.com/appraisal-rb/gem_mine/releases/tag/v0.1.6
 [0.1.5]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.4...v0.1.5
 [0.1.5t]: https://github.com/appraisal-rb/gem_mine/releases/tag/v0.1.5
 [0.1.4]: https://github.com/appraisal-rb/gem_mine/compare/v0.1.3...v0.1.4
