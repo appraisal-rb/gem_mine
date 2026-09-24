@@ -8,17 +8,12 @@ template_state:
     last_entry_date: '2026-09-13'
   maintenance_changelog:
     kettle-jem/prepare:
-    - Gemfile
-    - gem_mine.gemspec
     - gemfiles/modular/coverage_local.gemfile
-    - gemfiles/modular/documentation.gemfile
     - gemfiles/modular/documentation_local.gemfile
     - gemfiles/modular/style_local.gemfile
-    - gemfiles/modular/templating.gemfile
     - gemfiles/modular/templating_local.gemfile
     kettle-jem/template:
-    - ".simplecov"
-    - Rakefile
+    - bin/turbo_tests2
   checksums:
     ".aiignore.example": 48a5dfdd93afd1a15fdce39cc28ca9920263f00018b0968ab031fa744521e5ce
     ".config/mise/env.sh": aeea5a2ab489ba6e5467ae8de6e386ec8c8fe4ff31a044e69d0cd6a092dd6654
@@ -116,6 +111,7 @@ template_state:
     Rakefile.example: 569803e726b07ea26267fec6891367a3096a0dff3c266269a7081d36afe496af
     SECURITY.md.example: ee9411aa85f36d88363fdaea7a1baea4362b6ec112cf2688e711b05de1d3144c
     bin/setup.example: 0ac35089c95a91d8973fe7a318bf9fd98b9f8e00db92c5d9ca6cd858abb8d41b
+    bin/turbo_tests2.example: 0d81b72c359419a4f0146e8f0438c610211c528398b672c85325a568c9f26db2
     certs/pboling.pem.example: 18956f60643666cc181e2743b3b3691bec08c5326f514f60af54d0cdb9ebc554
     gem.gemspec.example: 518253f03da29256ba7a2cbf1fa4886f60c800a4f98d3ec0e0c49b26cba104c5
     gemfiles/modular/benchmark/r4/v0.5.gemfile.example: 5bc3190090ae456df1a8cce28dd47a7fb293495f6d845ec7e53a7a8b50f14ae1
@@ -601,7 +597,7 @@ files:
   CHANGELOG.md:
     recipe: template_source_application_CHANGELOG_md
     action: write
-    dest_sha256: 613c4c76f5a31b20365bbc90062fcbb9edab809b0d42bf84e86fcd42c1631f23
+    dest_sha256: 9a12bcaf2ed70a207f7ecee8dd232f161de66e429c2580f339d095d244bf4302
     input_fingerprint: d212e07b9ce5753d72396676ac2af5b79d34a11fe8d9c949efa8c6e25b0e732c
     template_sources:
     - CHANGELOG.md.example
@@ -703,6 +699,13 @@ files:
     input_fingerprint: 76d0d97d12ec5f8730a751a5215012a67e69ba4578cca2263da096c2ef91e2d4
     template_sources:
     - bin/setup.example
+  bin/turbo_tests2:
+    recipe: template_source_application_bin_turbo_tests2
+    action: write
+    dest_sha256: 0d81b72c359419a4f0146e8f0438c610211c528398b672c85325a568c9f26db2
+    input_fingerprint: 3eb022552a2c73e189846db40354b4500e15bc5ca55dc0fec169e7dfaea5a90d
+    template_sources:
+    - bin/turbo_tests2.example
   certs/pboling.pem:
     recipe: template_source_application_certs_pboling_pem
     action: write
