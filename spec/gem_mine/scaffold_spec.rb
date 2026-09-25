@@ -68,9 +68,12 @@ RSpec.describe GemMine::Scaffold do
       scaffold.initialize_git
 
       expect(dir.join("git_dummy/.git")).to be_directory
-      expect(`git -C #{Shellwords.escape(scaffold.root)} log --oneline`).to include("initial commit")
-      expect(`git -C #{Shellwords.escape(scaffold.root)} config user.email`).to eq("gem_mine@appraisal-rb.local\n")
-      expect(`git -C #{Shellwords.escape(scaffold.root)} config user.name`).to eq("GemMine\n")
+      expect(scaffold.__send__(:run, "git", "log", "--oneline", chdir: scaffold.root))
+        .to include("initial commit")
+      expect(scaffold.__send__(:run, "git", "config", "user.email", chdir: scaffold.root))
+        .to eq("gem_mine@appraisal-rb.local\n")
+      expect(scaffold.__send__(:run, "git", "config", "user.name", chdir: scaffold.root))
+        .to eq("GemMine\n")
     end
   end
 
