@@ -28,8 +28,6 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Fixed
 
-- Skip the style-only RuboCop toolchain in the Ruby 3.2 appraisal bundle.
-
 ### Security
 
 ## [0.1.8] - 2026-09-29
@@ -48,6 +46,10 @@ Please file a bug if you notice a violation of semantic versioning.
   - code and tests (1)
   - other (2)
   - workflows (18)
+
+### Fixed
+
+- Skip the style-only RuboCop toolchain in the Ruby 3.2 appraisal bundle.
 
 ## [0.1.7] - 2026-09-25
 
